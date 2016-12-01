@@ -1,0 +1,91 @@
+@charset "utf-8";
+.foot .ensure{
+	width: 100%;
+    height: 108px;
+    border-bottom: 1px solid #d6d6d6;
+    background: #f8f8f8;
+}
+.foot .margin{
+	width: 1190px;
+	margin:0 auto;
+}
+.foot .ensure .margin dl{
+	float:left;
+	margin-top:33px;
+	margin-right:36px;
+}
+.foot .ensure .margin dl dt{
+	width: 55px;
+    height: 40px;
+    float:left;
+}
+.foot .ensure .margin dl dd{
+	float:right;
+}
+.foot .ensure .margin dl .ensure1{
+	background:url(../img/ensure0.png) no-repeat;
+}
+.foot .ensure .margin dl .ensure2{
+	background:url(../img/ensure0.png) no-repeat 0 -50px;
+}
+.foot .ensure .margin dl .ensure3{
+	background:url(../img/ensure0.png) no-repeat 0 -100px;
+}
+.foot .ensure .margin dl .ensure4{
+	background:url(../img/ensure0.png) no-repeat 0 -150px;
+}
+.foot .ensure .margin dl .ensure5{
+	background:url(../img/ensure0.png) no-repeat 0 -200px;
+}
+.foot .ensure .margin dl .ensure6{
+	background:url(../img/ensure0.png) no-repeat 0 -250px;
+}
+.foot .service{
+	width: 100%;
+    height: 169px;
+    background: #f3f3f3;
+    padding-top: 35px;
+}
+.foot .service dl{
+	float:left;
+	width:141px;
+}
+.foot .service dl dt{
+	font: bold 15px/36px "";
+}
+.foot .service .linkothers{
+	width:200px;
+}
+.foot .service .linkothers dd{
+	margin-bottom: 20px;
+    display: block;
+}
+.foot .service .wechat{
+	width:110px;
+	text-align:center;
+}
+.foot .service .web{
+	width:110px;
+	text-align:center;
+}
+.foot .service dl .barcode img{
+	width:110px;
+	height:90px;
+}
+.foot .link{
+	background:#000000;
+	text-align: center;
+	padding:12px;
+}
+.foot .link a{
+	padding:0 14px;
+	font-size: 15px;
+	color:#fff;
+	border-left:solid 1px #FFF;
+}
+.foot .copyright{
+	text-align:center;
+}
+.foot .copyright p{
+	padding:10px 0;
+}
