@@ -43,6 +43,8 @@
 	left:11px;
 	bottom:-90px;
 	display:none;
+	z-index:88;
+	background:#fff;
 }
 .head .margin .head-top .head-top-right .selleradmin{
 	position:relative;
@@ -64,6 +66,7 @@
 	width:80px;
 	height:80px;
 	display:none;
+	z-index: 88;
 }
 .head .margin .head-top .head-top-right .app-qrcode{
 	position:relative;

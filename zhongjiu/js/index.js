@@ -40,7 +40,6 @@ $(function(){
 			},2000);
 		},
 		imgSwitch:function(){
-			console.log(this.next);
 			this.items.eq(this.now).fadeOut();
 			this.items.eq(this.next).fadeIn();
 			this.circle.eq(this.next).siblings().removeClass('cir-active');
@@ -64,6 +63,75 @@ $(function(){
 				that.imgSwitch();
 			})
 		},
-	}
+	};
 	lunbo.init();
+	var banneR={
+		bannerR:$('.small-banner a'),
+		init:function(){
+			this.leftmove();
+		},
+		leftmove:function(){
+			this.bannerR.hover(function(){
+				$(this).stop(true).animate({
+					'right':'130px'
+				});
+			},function(){
+				$(this).stop(true).animate({
+					'right':'120px'
+				});
+			});
+		}
+	};
+	banneR.init();
+	var renqi={
+		pBox:$('.renqi ul li'),
+		pic:$('.renqi ul li a'),
+		init:function(){
+			this.hover();
+		},
+		hover:function(){
+			var that=this;
+			this.pBox.hover(function(){
+				$(this).find('a').stop(true).animate({
+					'margin-left':'-5px'
+				})
+			},function(){
+				$(this).find('a').stop(true).animate({
+					'margin-left':0
+				})
+			})
+		},
+	};
+	renqi.init();
+	var huadong={
+		prev:$('.prev'),
+		next:$('.next'),
+		brandWrap:$('.brand-wrap'),
+		zu:$('.brand-wrap ul'),
+		index:0,
+		init:function(){
+			console.log(this.zu);
+			this.hua();
+		},
+		hua:function(){
+			var that=this;
+			this.prev.click(function(){
+				that.index--;
+				if(that.index<0){
+					that.index=that.zu.length-1;
+				};
+				that.brandWrap.stop(true).animate({
+				marginLeft:-1*that.index*(that.zu.width()+15)
+				});
+			});
+			this.next.click(function(){
+				that.index++;
+				that.index%=that.zu.length;
+				that.brandWrap.stop(true).animate({
+				marginLeft:-1*that.index*(that.zu.width()+15)
+				})
+			});
+		},
+	};
+	huadong.init();
 });

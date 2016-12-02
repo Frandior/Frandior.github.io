@@ -1,4 +1,7 @@
 @charset "utf-8";
+.head-container{
+	height:157px;
+}
 .first-screen{
 	width: 100%;
 }
@@ -65,4 +68,215 @@
     background-color: transparent;
     border: 3px solid #fff;
 }
-
+.small-banner a{
+	display:block;
+	position:absolute;
+	right:120px;
+	z-index:99;
+}
+.small-banner a img{
+	width: 200px;
+    height: 243px;
+    opacity: 0.8;
+}
+.small-banner .banner-rt{
+	top:0;
+}
+.small-banner .banner-rb{
+	bottom:0;
+}
+.content{
+	
+}
+.content .margin{
+	width:1190px;
+	margin: 0 auto;
+}
+.content .margin .renqi{
+	margin-bottom: 30px;
+}
+.content .margin .renqi h3{
+	height: 38px;
+   	font:bold 18px/38px '';
+    color: #3d4048;
+    padding-left: 10px;
+}
+.content .margin .renqi ul{
+	width:1200px;
+}
+.content .margin .renqi ul li{
+	float: left;
+    width: 230px;
+    height: 220px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.floor{
+    margin-bottom: 47px;
+}
+.floor .floor-t{   
+	line-height: 32px;
+    border-bottom: 1px solid #c9c9c9;
+    background-color: #fff;
+    margin-bottom: 4px;
+}
+ .floor .floor-t h3{
+ 	height: 18px;
+    float: left;
+    color: #3d4048;
+    font: 16px/18px '';
+    border-left: 4px solid #f00f34;
+    padding-left: 12px;
+    font-weight: bold;
+}   
+.floor .floor-t ul{
+	float:right;
+}
+.floor .floor-t ul li{
+	float:left;
+    margin-left: 50px;
+    font: 16px/32px '';
+    color: #2c2c2c;
+    cursor: pointer;
+    position: relative
+}
+.floor .floor-t ul li:hover{
+	color:#e3393c;
+}
+.floor .floor-t ul li b{
+	display:none;
+	width: 10px;
+    height: 6px;
+    position: absolute;
+    top: 29px;
+    right: 42%;
+    background-image: url(../img/sanjiao.png);
+    background-repeat: no-repeat;
+}
+.floor .floor-t ul li:hover b{
+	display:block;
+}
+.floor-content1{
+	
+}
+.floor-content-left{
+	width: 230px;
+    height: 450px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.cata-flo{
+	width:100%;
+	height: 124px;
+    position: absolute;
+    left: 0;
+    bottom: 185px;
+}
+.cata-flo table{
+	width: 186px;
+    height: 98px;
+    margin: 26px auto;
+}
+.cata-flo table tr td{
+	width: 83px;
+    line-height: 24px;
+    float: left;
+}
+.cata-flo table tr td a{
+	color: #292929;
+    font-size: 12px;
+}
+.content-brand{
+	position:absolute;
+	left:0;
+	bottom: 15px;
+	width:100%;
+}
+.prev{
+	position:absolute;
+	left:5px;
+	bottom:60px;
+	font:bolder 10px/10px "";
+	color:#292929;
+	cursor: pointer;
+}
+.next{
+	position:absolute;
+	right:5px;
+	bottom:60px;
+	font:bolder 10px/10px "";
+	color:#292929;
+	cursor: pointer;
+}
+.brand{
+    width: 196px;
+    height: 142px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.brand-wrap{
+	width:1000%;
+	height:100%;
+}
+.brand .brand-wrap ul{
+	float:left;
+	width:196px;
+	margin-right:17px;
+}
+.brand .brand-wrap ul li{
+	float:left;
+}
+.brand .brand-wrap ul li a img{
+	width:95px;
+	height:45px;
+}
+.floor-content-right{
+	float:left;
+	width: 950px;
+	position:relative
+}
+.floor-content-right dt,dd{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.floor-content-right dd ul li{
+	width: 160px;
+    height: 205px;
+    padding: 10px 15px;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    float: left;
+}
+.floor-content-right dd ul li a img{
+	width:160px;
+	height:160px;
+}
+.floor-content-right dd ul li p{
+	padding-top: 5px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #f00f34;
+}
+.floor-content-right dd ul li h3{
+	width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.floor-content-right .remai-list li{
+	margin-right: 7px;
+    margin-bottom: 9px;
+    float: left;
+    width: 230px;
+    height: 220px;
+}
+.floor-content-right .remai-list .remai-first{
+	width: 470px;
+    height: 450px;
+    margin-right: 6px;
+}

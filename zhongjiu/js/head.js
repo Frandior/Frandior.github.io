@@ -10,6 +10,7 @@ $(function(){
 		menuBot:$(".menu-bot"),
 		init:function(){
 			this.showtag();
+			this.backTop();
 		},
 		showtag:function(){
 			var that=this;
@@ -20,6 +21,13 @@ $(function(){
 					$(this).find('span').hide()
 				})
 			});
+		},
+		backTop:function(){
+			this.menuBot.find('.go-top').click(function(){
+				$('html,body').stop(true).animate({
+					scrollTop:0
+				},300);
+			})
 		},
 	};
 	head.init();
